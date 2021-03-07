@@ -1,0 +1,48 @@
+
+nav {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.spacer {
+  flex-grow: 1
+}
+
+button {
+  text-transform: uppercase;
+  margin-right: 3px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+
+.addProductForm {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+label {
+  padding-bottom: 10px;
+}
+
+.form-group {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+
+ .typeInput {
+   display: flex;
+   flex-direction: column;
+   width: 98%;
+   padding: 20px;
+   border:  1px solid black;
+   border-radius: 5px;
+   margin: 10px;
+}

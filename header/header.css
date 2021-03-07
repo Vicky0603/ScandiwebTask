@@ -1,0 +1,20 @@
+header {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.spacer {
+  flex-grow: 1
+}
+
+button {
+  text-transform: uppercase;
+  margin-right: 3px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
